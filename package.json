@@ -1,0 +1,26 @@
+{
+  "name": "bitcoin-history-reader",
+  "version": "0.0.1",
+  "description": "Iterates bitcoin closing rate (USD) and simulates a trading game",
+  "main": "index.js",
+  "dependencies": {
+    "highland": "2.5.1",
+    "moment": "2.10.6",
+    "request": "2.60.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "node install",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panstav/bitcoin-history-reader"
+  },
+  "bugs": {
+    "url": "https://github.com/panstav/bitcoin-history-reader/issues"
+  },
+  "private": true,
+  "author": "Stav Pan Geffen <stavgeffen@gmail.com>",
+  "license": "ISC"
+}
